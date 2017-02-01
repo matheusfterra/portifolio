@@ -5,13 +5,14 @@ var watch = require('gulp-watch');
 // task para o sass
 gulp.task('sass', function() {
     return gulp.src('sass/**/*.sass')
-        .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+        .pipe(sass())
         .pipe(gulp.dest('css'));
 });
 
 // task para watch
 gulp.task('watch', function(){
 	gulp.watch('sass/**/*.sass', ['sass']);
+	
 });
 
 // task default gulp
