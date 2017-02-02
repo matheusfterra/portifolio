@@ -1,6 +1,17 @@
 header
 	+clearfix
 	min-height: 500px
+	position: relative
+
+	&:after
+		content: ""
+		display: block
+		position: absolute
+		bottom: 0
+		width: 100%
+		height: 45px
+		+gradient(0deg, $azul, $verde)
+
 	background:
 		image: url('../images/banner-topo-inicial.png')
 		position: top center
@@ -23,6 +34,10 @@ header
 		.social
 			display: inline-block
 		nav
+			+breakpoint($tablet)
+				display: none
+			+breakpoint($celular)
+				display: none
 			ul
 				li
 					display: inline-block
@@ -44,6 +59,7 @@ header
 					line-height: 12px
 					text-align: center
 					+border-radius(120px)
+				
 	h1
 		clear: both
 		margin: 200px auto 30px auto !important
@@ -52,6 +68,8 @@ header
 		padding: 20px
 		display: table
 		text-transform: uppercase
+		+breakpoint($celular)
+			+font-size(40px)
 		
 	
 	h1,
