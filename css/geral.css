@@ -12,10 +12,8 @@ body {
   font-family: 'Open Sans', sans-serif !important;
   font-weight: 400;
   line-height: 1; }
-  body background {
-    color: #000 !important; }
   body strong {
-    font-weight: 700; }
+    font-weight: 400; }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -142,7 +140,6 @@ header {
     text-transform: uppercase; }
 
 footer {
-  background-color: #000;
   text-align: center;
   color: white; }
   footer:before, footer:after {
@@ -150,6 +147,16 @@ footer {
     display: table; }
   footer:after {
     clear: both; }
+  footer .rodape {
+    background-color: transparent;
+    background-image: -webkit-gradient(linear, 0deg, from(#000), to(transparent));
+    background-image: -webkit-linear-gradient(0deg, #000, transparent);
+    background-image: -moz-linear-gradient(0deg, #000, transparent);
+    background-image: -ms-linear-gradient(0deg, #000, transparent);
+    background-image: -o-linear-gradient(0deg, #000, transparent);
+    background-image: linear-gradient(0deg, #000, transparent);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle,StartColorStr='#000', EndColorStr='transparent');
+    padding: 5px; }
   footer .logo-rodape {
     margin: 25px auto;
       margin-height: 200px;
