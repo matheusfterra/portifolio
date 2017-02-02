@@ -1,23 +1,34 @@
 /*
-Error: Undefined mixin 'large'.
-        on line 1 of C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-www/Site/node_modules/sass/spec/fixtures/mixin.sass, in `large'
-        from line 1 of C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-www/Site/node_modules/sass/spec/fixtures/mixin.sass
+Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 1 tab.
+        on line 16 of C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-www/Site/sass/molecules/_reset.sass
+        from line 2 of C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-www/Site/sass/geral.sass
 
-1: +large
-2:   :font-size 15px
-3: +striped
-4:   tr
-5:     :background #fff
-6:     +large
+11: 	
+12:   
+13: 
+14:   
+15: html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+16:   margin: 0
+17:   padding: 0
+18:   border: 0
+19:   font-size: 100%
+20:   vertical-align: baseline
+21:   -webkit-font-smoothing: antialiased
 
 Backtrace:
-C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-www/Site/node_modules/sass/spec/fixtures/mixin.sass:1:in `large'
-C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-www/Site/node_modules/sass/spec/fixtures/mixin.sass:1
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:98:in `block in with_mixin'
+C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-www/Site/sass/molecules/_reset.sass:16
+C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-www/Site/sass/geral.sass:2
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:483:in `block in tabulate'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:441:in `each'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:441:in `each_with_index'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:441:in `tabulate'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:406:in `_to_tree'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:309:in `to_tree'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:324:in `block in visit_import'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:88:in `block in with_import'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:98:in `with_mixin'
-C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:347:in `visit_mixin'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:88:in `with_import'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `block in with_base'
@@ -49,4 +60,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'large'.\A         on line 1 of C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-www/Site/node_modules/sass/spec/fixtures/mixin.sass, in `large'\A         from line 1 of C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-www/Site/node_modules/sass/spec/fixtures/mixin.sass\A \A 1: +large\A 2:   :font-size 15px\A 3: +striped\A 4:   tr\A 5:     :background #fff\A 6:     +large"; }
+  content: "Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 1 tab.\A         on line 16 of C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-www/Site/sass/molecules/_reset.sass\A         from line 2 of C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-www/Site/sass/geral.sass\A \A 11: 	\A 12:   \A 13: \A 14:   \A 15: html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video\A 16:   margin: 0\A 17:   padding: 0\A 18:   border: 0\A 19:   font-size: 100%\A 20:   vertical-align: baseline\A 21:   -webkit-font-smoothing: antialiased"; }
