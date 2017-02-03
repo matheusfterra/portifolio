@@ -19,7 +19,6 @@
   margin: 0px;
   max-width: 100%;
   background-color: #2266a5;
-  color: #fff;
   overflow: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -39,8 +38,6 @@
     left: 0;
     right: 0;
     color: #ffffff; }
-    [class^='imghvr-'] figcaption h1, [class^='imghvr-'] figcaption h2, [class^='imghvr-'] figcaption h3, [class^='imghvr-'] figcaption h4, [class^='imghvr-'] figcaption h5, [class^='imghvr-'] figcaption h6, [class*=' imghvr-'] figcaption h1, [class*=' imghvr-'] figcaption h2, [class*=' imghvr-'] figcaption h3, [class*=' imghvr-'] figcaption h4, [class*=' imghvr-'] figcaption h5, [class*=' imghvr-'] figcaption h6 {
-      color: #ffffff; }
   [class^='imghvr-'] a, [class*=' imghvr-'] a {
     position: absolute;
     top: 0;
@@ -887,12 +884,14 @@ header {
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px;
-    overflow: hidden; }
+    overflow: hidden;
+    margin-bottom: 30px; }
     @media (min-width: 768px) {
       .portifolio ul li {
         float: left;
         width: 25%; } }
     .portifolio ul li figure {
+      background: white;
       position: relative; }
       .portifolio ul li figure:hover a {
         opacity: 1;
