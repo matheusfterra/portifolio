@@ -5,7 +5,7 @@ Error: File to import not found or unreadable: molecules/textos.
          C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/Configuration/SassFrameworks/neat
          C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/Configuration/SassFrameworks/base
         on line 1 of C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-www/Site/sass/templates/_sobre.sass
-        from line 8 of C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Site\sass\sobre.sass
+        from line 8 of C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-www/Site/sass/sobre.sass
 
 1: @import molecules/mixins
 2: @import ../bower_components/breakpoint-sass/stylesheets/breakpoint
@@ -16,7 +16,7 @@ Error: File to import not found or unreadable: molecules/textos.
 
 Backtrace:
 C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-www/Site/sass/templates/_sobre.sass:1
-C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Site\sass\sobre.sass:8
+C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-www/Site/sass/sobre.sass:8
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/import_node.rb:67:in `rescue in import'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/import_node.rb:45:in `import'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -66,4 +66,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: molecules/textos.\A        Load paths:\A          C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/Configuration/SassFrameworks/bourbon\A          C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/Configuration/SassFrameworks/neat\A          C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/Configuration/SassFrameworks/base\A         on line 1 of C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-www/Site/sass/templates/_sobre.sass\A         from line 8 of C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Site\sass\sobre.sass\A \A 1: @import molecules/mixins\A 2: @import ../bower_components/breakpoint-sass/stylesheets/breakpoint\A 3: @import ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins\A 4: @import ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables\A 5: @import ../bower_components/sass-flex-mixin/flex\A 6: @import atoms/botao"; }
+  content: "Error: File to import not found or unreadable: molecules/textos.\A        Load paths:\A          C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/Configuration/SassFrameworks/bourbon\A          C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/Configuration/SassFrameworks/neat\A          C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/Configuration/SassFrameworks/base\A         on line 1 of C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-www/Site/sass/templates/_sobre.sass\A         from line 8 of C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-www/Site/sass/sobre.sass\A \A 1: @import molecules/mixins\A 2: @import ../bower_components/breakpoint-sass/stylesheets/breakpoint\A 3: @import ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins\A 4: @import ../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables\A 5: @import ../bower_components/sass-flex-mixin/flex\A 6: @import atoms/botao"; }
