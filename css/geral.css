@@ -105,6 +105,18 @@ header {
       header .links nav ul li a {
         color: white;
         text-transform: uppercase; }
+        header .links nav ul li a:hover:after {
+          width: 80%; }
+        header .links nav ul li a:after {
+          content: "";
+          display: table;
+          margin: 5px auto 0;
+          width: 0%;
+          height: 2px;
+          background-color: white;
+          -webkit-transition: 0.3s;
+          -o-transition: 0.3s;
+          transition: 0.3s; }
     header .links .social li {
       display: inline-block;
       margin: 0 10px 0 0; }
