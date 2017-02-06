@@ -10,89 +10,108 @@
 
 </head>
 <body>
-  	<header>
-  	<div class="container">
-  		<div class="logo">
-  			<a href="index.html">
-  				<img src="images/logo-topo.svg" alt="Logo Topo Tag">
-  			</a>
-  		</div>
-  		
-  		<div class="links">
-  		<nav>
-  			<ul>
-  				<li><a href="index.html">Início</a></li>
-  				<li><a href="sobre.html">Sobre</a></li>
-  				<li><a href="portifolio.html">Portifolio</a></li>
-  				<li><a href="contato.html">Contato</a></li>
-  			</ul>
-  		</nav>
-  		
-  		<ul class="social">
-  			<li>
-  				<a href="#"><i class="fa fa-facebook"></i></a>
-  			</li>
-  			<li>
-  				<a href="#"><i class="fa fa-github-alt"></i></a>
-  			</li>
-  		</ul>
-		</div>
-  		
-  		<h1><strong>Matheus</strong> F. <strong>Terra</strong></h1>
-  		
-  		<p>Code // Development // Designer</p>
-  		</div>
-  	</header>
-
-	<main>
-	<section class="sobre">
+	<nav class="menu-responsivo">
+				<ul>
+					<li><a href="index.html">Início</a></li>
+					<li><a href="sobre.html">Sobre</a></li>
+					<li><a href="portifolio.html">Portifolio</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+	</nav>
+ 	<div class="layout">
+		<header>
 		<div class="container">
-			<div class="itens">
-				<div class="foto">
-					<img src="images/Elipse 1.png" alt="Foto TAG">
-				</div>
-
-				<div class="icone-youtube">
-					<i class="fa fa-youtube"></i>
-				</div>
-
-				<div class="icone-codigo">
-					<i class="fa fa-code"></i>
-				</div>
-
-				<div class="icone-spotify">
-					<i class="fa fa-spotify"></i>
-				</div>
-
-				<div class="icone-share">
-					<i class="fa fa-share-alt"></i>
-				</div>
-			</div>
+			<div class="logo">
+				<a href="index.html">
+					<img src="images/logo-topo.svg" alt="Logo Topo Tag">
+				</a>
 			</div>
 
-			<div class="textos">
-				<p><strong>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</strong> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<div class="links">
+				<nav>
+				<ul>
+					<li><a href="index.html">Início</a></li>
+					<li><a href="sobre.html">Sobre</a></li>
+					<li><a href="portifolio.html">Portifolio</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+	</nav>
+			<a class="toggle" href="javascript:;"><span></span><span></span><span></span></i></a>
 
-				<a href="#" class="botao medio"><i class="fa fa-eye"> </i>    Continue Lendo</a>
-		   </div>	
-		
-		</section>
-	</main>
+			<ul class="social">
+				<li>
+					<a href="#"><i class="fa fa-facebook"></i></a>
+				</li>
+				<li>
+					<a href="#"><i class="fa fa-github-alt"></i></a>
+				</li>
+			</ul>
+			</div>
 
- <footer>
- 	<div class="rodape">
- 		<div class="logo-rodape">
- 			<a href="index.html">
- 				<img src="images/logo-rodape.svg" alt="Logo TAG Rodapé">
- 			</a>
- 		</div>
- 		
- 		<p>2017 © Todos os Direitos Reservados</p>
- 	</div>
- </footer>
+			<h1><strong>Matheus</strong> F. <strong>Terra</strong></h1>
 
+			<p>Code // Development // Designer</p>
+			</div>
+		</header>
 
+		<main>
+		<section class="sobre">
+			<div class="container">
+				<div class="itens">
+					<div class="foto">
+						<img src="images/Elipse 1.png" alt="Foto TAG">
+					</div>
 
+					<div class="icone-youtube">
+						<i class="fa fa-youtube"></i>
+					</div>
+
+					<div class="icone-codigo">
+						<i class="fa fa-code"></i>
+					</div>
+
+					<div class="icone-spotify">
+						<i class="fa fa-spotify"></i>
+					</div>
+
+					<div class="icone-share">
+						<i class="fa fa-share-alt"></i>
+					</div>
+				</div>
+				</div>
+
+				<div class="textos">
+					<p><strong>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</strong> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+					<a href="#" class="botao medio"><i class="fa fa-eye"> </i>    Continue Lendo</a>
+			   </div>	
+
+			</section>
+		</main>
+
+	 <footer>
+		<div class="rodape">
+			<div class="logo-rodape">
+				<a href="index.html">
+					<img src="images/logo-rodape.svg" alt="Logo TAG Rodapé">
+				</a>
+			</div>
+
+			<p>2017 © Todos os Direitos Reservados</p>
+		</div>
+	 </footer>
+</div>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script>
+	$(function(){
+	  	$('.toggle').click(function(){
+			$('.layout').toggleClass('ativo');
+			$('.menu-responsivo').toggleClass('ativo');
+			$(this).toggleClass('ativo');
+		});
+	  });
+	</script>
 
 
 
