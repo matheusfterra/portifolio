@@ -6,7 +6,11 @@
  <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/geral.css">
 <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/plugins.css">
+<?php if(isset($style)) { ?>
 <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/<?php global $style; echo $style;?>.css">
+<?php }else{ ;?>
+<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/page.css">
+<?php } ;?>
 <link rel="stylesheet" href="<?php bloginfo('template_url');?>/bower_components/wow/css/libs/animate.css">
 <?php if(is_page('portifolio')) { ?>
 <link rel="stylesheet" href="<?php bloginfo('template_url');?>/bower_components/lightbox2/dist/css/lightbox.min.css">
@@ -18,7 +22,7 @@
 <?php };?>
 <?php wp_head();?>
 </head>
-<body>
+<body <?php body_class(); ?>>
 	<?php include("includes/organisms/menu-responsivo.php");?>
 	<?php if(is_front_page()) { ?>
 
