@@ -99,9 +99,22 @@
 				</li>
 			</ul>
 			</div>
-				<h1><?php the_title();?></h1>
 
-				<p>Code // Development // Designer</p>
+			<div class="slide">
+						<?php 
+							query_posts('post_type=slide');
+							while(have_posts()): the_post(); 
+						?>
+							<div class="item">
+								<h1><?php the_title(); ?></h1>
+								<?php the_content(); ?>
+							</div>	
+						<?php 
+							endwhile; 
+							wp_reset_query();
+						?>
+					</div>
+
 			</div>
 		</header>
 

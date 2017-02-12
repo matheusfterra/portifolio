@@ -133,6 +133,8 @@ header {
         -moz-border-radius: 120px;
         -ms-border-radius: 120px;
         border-radius: 120px; }
+  header .slide .slick-list {
+    clear: both; }
   header h1 {
     clear: both;
     margin: 200px auto 30px auto !important;

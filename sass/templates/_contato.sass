@@ -9,6 +9,9 @@ header
 		color: $preto
 
 .contato
+	p,h1,h2,h3
+		display: block
+		margin: 0 0 30px
 	form
 		+clearfix
 		+make-sm-column(8)
@@ -31,9 +34,10 @@ header
 				border-color: $verde
 			text-transform: uppercase
 			+transition(.3s)
-		button
+		input[type="submit"]
 			background-color: transparent
 			display: table
+			width: 200px
 			margin: 0 auto
 		.bg-success,
 		.bg-danger

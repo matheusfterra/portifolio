@@ -38,7 +38,6 @@
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  text-align: center;
   margin-bottom: 60px; }
   @media (min-width: 768px) {
     .textos {
@@ -86,12 +85,6 @@
       margin: 40px 0 10px; }
       .habilidades li h2 i {
         font-size: 38px; }
-        .habilidades li h2 i.fa-html5 {
-          color: orange; }
-        .habilidades li h2 i.fa-css3 {
-          color: #31b1e7; }
-        .habilidades li h2 i.fa-wordpress {
-          color: #1a98eb; }
   .habilidades li.habilidade-0 .barra span {
     width: 0%; }
   .habilidades li.habilidade-1 .barra span {
